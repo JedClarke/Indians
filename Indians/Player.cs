@@ -75,5 +75,11 @@ namespace Indians
             dealer = d;
         }
 
+        //returns name of the player
+        public string getName()
+        {
+            return name;
+        }
+
     }
 }
