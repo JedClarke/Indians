@@ -40,6 +40,7 @@ namespace Indians
         {
             //if player name is not already taken, check that later
             players.Add(new Player(n, false));
+            totalPlayers++;
             return true;
         }
 

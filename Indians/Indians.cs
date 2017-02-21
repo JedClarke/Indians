@@ -10,7 +10,11 @@ namespace Indians
     {
         static void Main(string[] args)
         {
-            
+            int players;
+
+            Console.WriteLine("Please enter the number of players: ");
+            players = Convert.ToInt32(Console.ReadLine());
+
         }
     }
 }
